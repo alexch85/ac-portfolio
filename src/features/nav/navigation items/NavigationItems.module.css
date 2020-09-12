@@ -1,0 +1,11 @@
+.NavigationItems {
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+	margin-left: auto;
+	color: white;
+}
+
+.NavigationItems p {
+	letter-spacing: 0.03em;
+}

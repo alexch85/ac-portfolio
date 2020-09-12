@@ -1,0 +1,15 @@
+.SocialMediaIcons {
+	display: flex;
+	width: 60px;
+	margin-left: 50px;
+	justify-content: space-between;
+}
+
+.SocialMediaIcon {
+	color: #ffffff;
+}
+
+.SocialMediaIcon:hover {
+	color: #29abe2;
+	cursor: pointer;
+}

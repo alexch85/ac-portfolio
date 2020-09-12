@@ -1,10 +1,16 @@
 .Logo {
 	display: flex;
 	align-items: center;
+	justify-self: flex-start;
 }
-
+.Logo img {
+	margin-top: 3px;
+	height: 36px;
+	width: 60px;
+}
 .Logo p {
 	margin: 0 7px 0;
+	padding: 0;
 }
 .logo p + p {
 	margin-bottom: 5px;
