@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../../project/Project';
+import Project from '../../UI/project/Project';
 import styles from './Projects.module.css';
 
 export default function Projects() {
