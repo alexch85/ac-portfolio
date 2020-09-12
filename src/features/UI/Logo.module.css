@@ -1,0 +1,11 @@
+.Logo {
+	display: flex;
+	align-items: center;
+}
+
+.Logo p {
+	margin: 0 7px 0;
+}
+.logo p + p {
+	margin-bottom: 5px;
+}
