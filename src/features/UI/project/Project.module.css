@@ -1,0 +1,30 @@
+.Project {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+.description {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.DescButtons {
+	display: flex;
+}
+
+.Project img {
+	height: 300px;
+	width: 500px;
+}
+
+.Project h2 {
+	margin-bottom: 0;
+	color: #333333;
+}
+
+.Project p {
+	max-width: 600px;
+}
