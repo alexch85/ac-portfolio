@@ -33,6 +33,20 @@
 	margin-left: 20px;
 	color: #ffffff;
 	height: 50%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+
+.AboutDescription p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.AboutDescription h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .AboutPageGraphics {

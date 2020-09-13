@@ -1,0 +1,53 @@
+.ButtonWhite {
+	color: #333333;
+	background: #e6e6e6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 5px;
+	width: auto;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-right: 10px;
+	min-width: 145px;
+	box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.1);
+	letter-spacing: 0.02em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.ButtonRegular {
+	color: #ffffff;
+	background: #706d6d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 5px;
+	width: auto;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	min-width: 145px;
+	box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.1);
+	letter-spacing: 0.02em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.ButtonRegular:hover {
+	background: #29abe2;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+	color: #fff;
+	transform: translateY(-2px);
+	cursor: pointer;
+}
+.ButtonWhite:hover {
+	background: #e6e6e6;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+	color: #29abe2;
+	transform: translateY(-2px);
+	cursor: pointer;
+}

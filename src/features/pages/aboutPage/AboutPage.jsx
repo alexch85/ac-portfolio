@@ -1,5 +1,7 @@
 import React from 'react';
+import Button from '../../UI/buttons/Button';
 import styles from './AboutPage.module.css';
+import { FaFileDownload } from 'react-icons/fa';
 
 export default function AboutPage() {
 	return (
@@ -13,7 +15,9 @@ export default function AboutPage() {
 					Culpa commodo dolore labore esse eu ea consectetur ut voluptate do. Proident in sunt qui ipsum
 					proident culpa in excepteur fugiat qui sit nostrud.
 				</p>
-				<button>Download resume</button>
+				<Button costumColor='white'>
+					<FaFileDownload style={{ marginRight: '3px' }} /> download resume
+				</Button>
 			</div>
 			<div className={styles.AboutPageGraphics}>
 				<img alt='parentheses' style={{ height: '200px' }} src='/svg-files/parentheses-left.svg' />
