@@ -4,7 +4,7 @@ import styles from './Projects.module.css';
 
 export default function Projects() {
 	return (
-		<div className={styles.Projects}>
+		<div className={styles.Projects} id='projects'>
 			<Project />
 			<hr />
 			<Project />

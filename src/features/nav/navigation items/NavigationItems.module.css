@@ -6,6 +6,13 @@
 	color: white;
 }
 
-.NavigationItems p {
+.NavigationItems a {
 	letter-spacing: 0.05em;
+}
+
+.NavigationItems a:hover,
+.NavigationItems a:focus,
+.NavigationItems a:active {
+	cursor: pointer;
+	color: rgb(41, 171, 226);
 }

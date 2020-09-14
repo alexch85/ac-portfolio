@@ -6,7 +6,7 @@ import Button from '../../UI/buttons/Button';
 
 export default function ContactPage() {
 	return (
-		<div className={styles.ContactPage}>
+		<div className={styles.ContactPage} id='contact'>
 			<div className={styles.ContactContent}>
 				<h2>Contact me</h2>
 				<p>Ipsum anim sit dolore id veniam.</p>

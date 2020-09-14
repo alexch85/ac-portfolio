@@ -5,7 +5,7 @@ import { FaFileDownload } from 'react-icons/fa';
 
 export default function AboutPage() {
 	return (
-		<div className={styles.AboutPage}>
+		<div className={styles.AboutPage} id='about'>
 			<div className={styles.PhotoGradient}></div>
 			<img className={styles.AcPhoto} alt='Alex' src='/pictures/ac-photo.png' />
 			<div className={styles.AboutDescription}>
