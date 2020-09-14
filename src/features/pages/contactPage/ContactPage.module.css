@@ -1,0 +1,85 @@
+.ContactPage {
+	height: 400px;
+	background: rgba(255, 255, 255, 0.9);
+	padding: 50px;
+}
+
+.ContactContent {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.ContactContent h2 {
+	color: #333333;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+form {
+	display: flex;
+	flex-flow: column;
+}
+
+.FormContent {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.ContactFields {
+	display: flex;
+	flex-flow: column;
+	width: 575px;
+}
+
+.ContactFields input {
+	height: 36px;
+	text-indent: 5px;
+	background-color: rgba(255, 255, 255, 0.7);
+	outline: none;
+	border: 1px solid #bebbbb;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+.ContactFields input:hover,
+.ContactFields input:focus,
+.ContactFields input:active {
+	border-radius: 2px;
+	border: 2px solid #29abe2;
+	outline: none;
+}
+
+.ContactFields input + input {
+	margin-top: 10px;
+}
+
+.ContactTextarea {
+	width: 575px;
+	margin-left: 50px;
+}
+
+.ContactTextarea textarea {
+	width: 575px;
+	height: 130px;
+	box-sizing: border-box;
+	text-indent: 5px;
+	background-color: rgba(255, 255, 255, 0.7);
+	outline: none;
+	border: 1px solid #bebbbb;
+	border-radius: 2px;
+	resize: none;
+}
+
+.ContactTextarea textarea:hover,
+.ContactTextarea textarea:focus,
+.ContactTextarea textarea:active {
+	border-radius: 2px;
+	border: 2px solid #29abe2;
+	outline: none;
+}
+
+.ContactContent button {
+	margin-top: 20px;
+	align-self: flex-end;
+}
