@@ -5,14 +5,11 @@ import { Link } from 'react-scroll';
 export default function NavigationItems() {
 	return (
 		<div className={styles.NavigationItems}>
-			<Link activeClass='active' to='projects' spy={true} smooth={true} offset={0} duration={500}>
+			<Link activeClass={styles.Active} to='projects' spy={true} smooth={true} offset={-70} duration={500}>
 				PROJECTS
 			</Link>
-			<Link activeClass='active' to='about' spy={true} smooth={true} offset={0} duration={500}>
-				ABOUT
-			</Link>
-			<Link activeClass='active' to='contact' spy={true} smooth={true} offset={0} duration={500}>
-				CONTACT
+			<Link activeClass={styles.Active} to='about' spy={true} smooth={true} offset={-70} duration={500}>
+				ABOUT/CONTACT
 			</Link>
 		</div>
 	);

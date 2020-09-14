@@ -1,7 +1,7 @@
 .NavigationItems {
 	display: flex;
 	justify-content: space-between;
-	width: 300px;
+	width: 250px;
 	margin-left: auto;
 	color: white;
 }
@@ -14,5 +14,9 @@
 .NavigationItems a:focus,
 .NavigationItems a:active {
 	cursor: pointer;
+	color: rgb(41, 171, 226);
+}
+
+.Active {
 	color: rgb(41, 171, 226);
 }
