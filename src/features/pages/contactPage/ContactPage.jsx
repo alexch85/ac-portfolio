@@ -8,7 +8,7 @@ export default function ContactPage() {
 	return (
 		<div className={styles.ContactPage} id='contact'>
 			<div className={styles.ContactContent}>
-				<h2>Contact me</h2>
+				<h1>Contact me</h1>
 				<p>Ipsum anim sit dolore id veniam.</p>
 				<Formik
 					initialValues={{ name: '', email: '', phoneNumber: '', message: '' }}
