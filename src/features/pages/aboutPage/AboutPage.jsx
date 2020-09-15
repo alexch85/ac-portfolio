@@ -20,7 +20,7 @@ export default function AboutPage() {
 				</Button>
 			</div>
 			<div className={styles.AboutPageGraphics}>
-				<img alt='parentheses' style={{ height: '200px' }} src='/svg-files/parentheses-left.svg' />
+				<img alt='parentheses' src='/svg-files/parentheses-left.svg' />
 				<div className={styles.DevIcons}>
 					<div className={styles.DevIconsRow}>
 						<img alt='development icon' src='/svg-files/development-icons-styled/react-icon.svg' />
@@ -33,7 +33,7 @@ export default function AboutPage() {
 						<img alt='development icon' src='/svg-files/development-icons-styled/html-icon.svg' />
 					</div>
 				</div>
-				<img alt='parentheses1' style={{ height: '200px' }} src='/svg-files/parentheses-right.svg' />
+				<img alt='parentheses1' src='/svg-files/parentheses-right.svg' />
 			</div>
 		</div>
 	);

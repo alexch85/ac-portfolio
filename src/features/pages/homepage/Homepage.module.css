@@ -8,7 +8,7 @@
 
 .HomepageWelcome {
 	margin: 0 10px 40px;
-	width: 100%;
+	max-width: 100%;
 }
 
 .HomepageWelcome h1 {
@@ -25,11 +25,12 @@
 
 .ViewProjects {
 	margin: 80px 0 0 10px;
-	width: 100%;
+	max-width: 200px;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
 	cursor: pointer;
+	box-sizing: border-box;
 }
 
 .ViewProjects p {
