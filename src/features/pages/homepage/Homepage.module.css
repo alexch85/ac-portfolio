@@ -7,25 +7,25 @@
 }
 
 .HomepageWelcome {
-	margin: 0 auto;
-	width: 1200px;
+	margin: 0 10px 40px;
+	width: 100%;
 }
 
 .HomepageWelcome h1 {
 	margin: 0;
-	font-size: 4em;
+	font-size: 2.5em;
 	line-height: 1em;
 	color: #333333;
 }
 
 .HomepageWelcome P {
-	font-size: 1.85em;
+	font-size: 1.15em;
 	margin: 0.5em 0;
 }
 
 .ViewProjects {
-	margin: 0 auto;
-	width: 1200px;
+	margin: 80px 0 0 10px;
+	width: 100%;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
@@ -33,10 +33,55 @@
 }
 
 .ViewProjects p {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .ArrowDown {
 	color: #29abe2;
-	font-size: 2em;
+	font-size: 1.4em;
+}
+
+@media (min-width: 768px) {
+	.Homepage {
+		width: 100%;
+		height: auto;
+		background: rgba(255, 255, 255, 0.9);
+		margin: 0;
+		padding-top: 8em;
+	}
+
+	.HomepageWelcome {
+		margin: 0 auto;
+		width: 1200px;
+	}
+
+	.HomepageWelcome h1 {
+		margin: 0;
+		font-size: 4em;
+		line-height: 1em;
+		color: #333333;
+	}
+
+	.HomepageWelcome P {
+		font-size: 1.85em;
+		margin: 0.5em 0;
+	}
+
+	.ViewProjects {
+		margin: 0 auto;
+		width: 1200px;
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		cursor: pointer;
+	}
+
+	.ViewProjects p {
+		font-size: 1.5em;
+	}
+
+	.ArrowDown {
+		color: #29abe2;
+		font-size: 2em;
+	}
 }

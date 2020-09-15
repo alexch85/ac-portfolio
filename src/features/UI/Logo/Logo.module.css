@@ -6,13 +6,38 @@
 }
 .Logo img {
 	margin-top: 3px;
-	height: 36px;
-	width: 60px;
+	height: 27px;
+	width: 52px;
 }
 .Logo p {
-	margin: 0 7px 0;
+	margin: 0 7px;
 	padding: 0;
+	font-size: 0.7em;
+	color: #ffffff;
 }
+.logoName {
+	color: #29abe2;
+	font-size: 1.12em;
+}
+
 .logo p + p {
 	margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+	.Logo img {
+		margin-top: 3px;
+		height: 36px;
+		width: 60px;
+	}
+
+	.Logo p {
+		margin: 0 7px 0;
+		padding: 0;
+		color: #ffffff;
+		font-size: 0.88em;
+	}
+	.logo p + p {
+		margin-bottom: 5px;
+	}
 }

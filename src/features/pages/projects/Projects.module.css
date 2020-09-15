@@ -1,8 +1,23 @@
 .Projects {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
 	width: 100%;
 	background: #e6e6e6;
-	padding: 50px 0 20px;
+	padding: 20px 0 0;
 	-webkit-box-shadow: 0px -2px 5px 1px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0px -2px 5px 1px rgba(0, 0, 0, 0.1);
 	box-shadow: 0px -2px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+	.Projects {
+		display: block;
+		width: 100%;
+		background: #e6e6e6;
+		padding: 50px 0 20px;
+		-webkit-box-shadow: 0px -2px 5px 1px rgba(0, 0, 0, 0.1);
+		-moz-box-shadow: 0px -2px 5px 1px rgba(0, 0, 0, 0.1);
+		box-shadow: 0px -2px 5px 1px rgba(0, 0, 0, 0.1);
+	}
 }

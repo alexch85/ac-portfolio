@@ -11,9 +11,9 @@ export default function Logo() {
 			<img alt='logo' src='/svg-files/ac-logo.svg' />
 			<div>
 				<p>
-					<b style={{ color: '#29abe2' }}>ALEXANDER CHECHIK</b>
+					<b className={styles.logoName}>ALEXANDER CHECHIK</b>
 				</p>
-				<p style={{ color: '#ffffff', fontSize: '0.88em' }}>DESIGIN & DEVELOPMENT</p>
+				<p>DESIGIN & DEVELOPMENT</p>
 			</div>
 		</div>
 	);

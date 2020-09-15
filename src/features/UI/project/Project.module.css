@@ -1,23 +1,35 @@
 .Project {
-	width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
+	align-items: center;
+	flex-flow: column;
 	justify-content: space-between;
-	padding: 20px 0;
+	padding: 10px 0 40px;
+	border-bottom: 3px solid #333333;
 }
 
 .description {
 	display: flex;
 	flex-flow: column nowrap;
+	width: 90%;
+	box-sizing: border-box;
 }
 
 .DescButtons {
 	display: flex;
+	flex-flow: column;
+}
+
+.DescButtons button {
+	width: 100%;
+	margin: 10px 0;
+	box-sizing: border-box;
 }
 
 .Project img {
-	height: 300px;
-	width: 500px;
+	height: 60%;
+	width: 90%;
 }
 
 .Project h2 {
@@ -30,4 +42,41 @@
 .Project p {
 	max-width: 600px;
 	font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 768px) {
+	.Project {
+		width: 1200px;
+		margin: 0 auto;
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		padding: 20px 0;
+	}
+
+	.description {
+		display: flex;
+		flex-flow: column nowrap;
+	}
+
+	.DescButtons {
+		display: flex;
+		flex-flow: row;
+	}
+
+	.Project img {
+		height: 300px;
+		width: 500px;
+	}
+
+	.Project h2 {
+		margin-bottom: 0;
+		color: #333333;
+		text-transform: uppercase;
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+	.Project p {
+		max-width: 600px;
+	}
 }
