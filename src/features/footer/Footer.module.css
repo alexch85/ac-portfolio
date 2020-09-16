@@ -4,4 +4,11 @@
 	color: #ffffff;
 	text-align: center;
 	padding: 10px 0;
+	font-size: 0.7em;
+}
+
+@media (min-width: 768px) {
+	.Footer {
+		font-size: 1em;
+	}
 }

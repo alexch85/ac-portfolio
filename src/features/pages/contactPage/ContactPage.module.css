@@ -1,11 +1,12 @@
 .ContactPage {
-	height: 400px;
+	height: auto;
 	background: rgba(255, 255, 255, 0.9);
-	padding: 50px;
+	padding: 20px 0 30px;
+	width: 100%;
 }
 
 .ContactContent {
-	max-width: 100%;
+	max-width: 90%;
 	margin: 0 auto;
 }
 
@@ -13,6 +14,9 @@
 	color: #333333;
 	text-transform: uppercase;
 	font-family: 'Open Sans Condensed', sans-serif;
+	align-self: center;
+	width: 100%;
+	text-align: center;
 }
 
 form {
@@ -31,6 +35,7 @@ form {
 	flex-flow: column;
 	width: 100%;
 	box-sizing: border-box;
+	margin-bottom: 10px;
 }
 
 .ContactFields input {
@@ -41,7 +46,7 @@ form {
 	border: 1px solid #bebbbb;
 	border-radius: 2px;
 	box-sizing: border-box;
-	width: 90%;
+	width: 100%;
 }
 
 .ContactFields input:hover,
@@ -62,7 +67,7 @@ form {
 }
 
 .ContactTextarea textarea {
-	width: 90%;
+	width: 100%;
 	height: 130px;
 	box-sizing: border-box;
 	text-indent: 5px;
@@ -76,8 +81,8 @@ form {
 .ContactTextarea textarea:hover,
 .ContactTextarea textarea:focus,
 .ContactTextarea textarea:active {
-	border-radius: none;
-	border: none;
+	border-radius: 2px;
+	border: 2px solid #29abe2;
 	outline: none;
 }
 
@@ -89,54 +94,31 @@ form {
 @media (min-width: 768px) {
 	.ContactPage {
 		height: 400px;
-		background: rgba(255, 255, 255, 0.9);
 		padding: 50px;
+		width: 100%;
 	}
 
 	.ContactContent {
 		max-width: 1200px;
-		margin: 0 auto;
 	}
 
 	.ContactContent h1 {
-		color: #333333;
-		text-transform: uppercase;
-		font-family: 'Open Sans Condensed', sans-serif;
-	}
-
-	form {
-		display: flex;
-		flex-flow: column;
+		width: auto;
+		text-align: start;
 	}
 
 	.FormContent {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: space-between;
+		flex-flow: row nowrap;
 	}
 
 	.ContactFields {
 		display: flex;
 		flex-flow: column;
-		width: 575px;
+		max-width: 575px;
 	}
 
-	.ContactFields input {
-		height: 36px;
-		text-indent: 5px;
-		background-color: rgba(255, 255, 255, 0.7);
-		outline: none;
-		border: 1px solid #bebbbb;
-		border-radius: 2px;
-		box-sizing: border-box;
-	}
-
-	.ContactFields input:hover,
-	.ContactFields input:focus,
-	.ContactFields input:active {
-		border-radius: 2px;
-		border: 2px solid #29abe2;
-		outline: none;
+	.ContactFields {
+		width: 100%;
 	}
 
 	.ContactFields input + input {
@@ -144,20 +126,12 @@ form {
 	}
 
 	.ContactTextarea {
-		width: 575px;
+		max-width: 575px;
 		margin-left: 50px;
 	}
 
 	.ContactTextarea textarea {
-		width: 575px;
-		height: 130px;
-		box-sizing: border-box;
-		text-indent: 5px;
-		background-color: rgba(255, 255, 255, 0.7);
-		outline: none;
-		border: 1px solid #bebbbb;
-		border-radius: 2px;
-		resize: none;
+		width: 100%;
 	}
 
 	.ContactTextarea textarea:hover,
@@ -169,7 +143,6 @@ form {
 	}
 
 	.ContactContent button {
-		margin-top: 20px;
 		align-self: flex-end;
 	}
 }

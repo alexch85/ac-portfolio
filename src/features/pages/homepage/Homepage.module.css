@@ -43,38 +43,22 @@
 }
 
 @media (min-width: 768px) {
-	.Homepage {
-		width: 100%;
-		height: auto;
-		background: rgba(255, 255, 255, 0.9);
-		margin: 0;
-		padding-top: 8em;
-	}
-
 	.HomepageWelcome {
 		margin: 0 auto;
 		width: 1200px;
 	}
 
 	.HomepageWelcome h1 {
-		margin: 0;
 		font-size: 4em;
-		line-height: 1em;
-		color: #333333;
 	}
 
 	.HomepageWelcome P {
 		font-size: 1.85em;
-		margin: 0.5em 0;
 	}
 
 	.ViewProjects {
 		margin: 0 auto;
 		max-width: 1200px;
-		display: flex;
-		flex-flow: row nowrap;
-		align-items: center;
-		cursor: pointer;
 	}
 
 	.ViewProjects p {
@@ -82,7 +66,6 @@
 	}
 
 	.ArrowDown {
-		color: #29abe2;
 		font-size: 2em;
 	}
 }

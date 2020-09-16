@@ -12,6 +12,7 @@
 .description {
 	display: flex;
 	flex-flow: column nowrap;
+	align-items: center;
 	width: 90%;
 	box-sizing: border-box;
 }
@@ -19,10 +20,10 @@
 .DescButtons {
 	display: flex;
 	flex-flow: column;
+	width: 100%;
 }
 
 .DescButtons button {
-	width: 100%;
 	margin: 10px 0;
 	box-sizing: border-box;
 }
@@ -46,37 +47,28 @@
 
 @media (min-width: 768px) {
 	.Project {
-		width: 1200px;
-		margin: 0 auto;
-		display: flex;
+		max-width: 1200px;
 		flex-flow: row;
-		justify-content: space-between;
 		padding: 20px 0;
+		border-bottom: none;
 	}
 
 	.description {
 		display: flex;
-		flex-flow: column nowrap;
+		align-items: flex-start;
+		width: auto;
 	}
 
 	.DescButtons {
-		display: flex;
 		flex-flow: row;
+	}
+
+	.DescButtons button {
+		margin-right: 10px;
 	}
 
 	.Project img {
 		height: 300px;
 		width: 500px;
-	}
-
-	.Project h2 {
-		margin-bottom: 0;
-		color: #333333;
-		text-transform: uppercase;
-		font-family: 'Open Sans Condensed', sans-serif;
-	}
-
-	.Project p {
-		max-width: 600px;
 	}
 }
