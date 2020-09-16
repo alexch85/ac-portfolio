@@ -1,0 +1,29 @@
+.SideDrawer {
+	position: fixed;
+	top: 70px;
+	left: 0;
+	width: 100vw;
+	height: 140px;
+	background-color: #525252;
+	color: #ffffff;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: space-evenly;
+	z-index: 1000;
+}
+
+.SideDrawer a {
+	letter-spacing: 0.05em;
+	margin: 10px 0;
+}
+
+.LinkContainer {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+.LinkContainer + .LinkContainer {
+	border-top: 1px solid #ffffff;
+}

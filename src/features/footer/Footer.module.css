@@ -4,7 +4,11 @@
 	color: #ffffff;
 	text-align: center;
 	padding: 10px 0;
-	font-size: 0.7em;
+	font-size: 0.8em;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 @media (min-width: 768px) {
