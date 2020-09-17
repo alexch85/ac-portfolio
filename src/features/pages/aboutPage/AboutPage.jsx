@@ -20,20 +20,7 @@ export default function AboutPage() {
 				</Button>
 			</div>
 			<div className={styles.AboutPageGraphics}>
-				<img alt='parentheses' src='/svg-files/parentheses-left.svg' />
-				<div className={styles.DevIcons}>
-					<div className={styles.DevIconsRow}>
-						<img alt='development icon' src='/svg-files/development-icons-styled/react-icon.svg' />
-						<img alt='development icon' src='/svg-files/development-icons-styled/redux-icon.svg' />
-						<img alt='development icon' src='/svg-files/development-icons-styled/material-ui-icon.svg' />
-					</div>
-					<div className={styles.DevIconsRow}>
-						<img alt='development icon' src='/svg-files/development-icons-styled/javascript-icon.svg' />
-						<img alt='development icon' src='/svg-files/development-icons-styled/css-icon.svg' />
-						<img alt='development icon' src='/svg-files/development-icons-styled/html-icon.svg' />
-					</div>
-				</div>
-				<img alt='parentheses1' src='/svg-files/parentheses-right.svg' />
+				<img alt='about graphics' src='/svg-files/about-graphics.svg' />
 			</div>
 		</div>
 	);

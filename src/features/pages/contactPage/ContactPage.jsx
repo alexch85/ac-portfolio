@@ -3,8 +3,13 @@ import React from 'react';
 import styles from './ContactPage.module.css';
 import * as Yup from 'yup';
 import Button from '../../UI/buttons/Button';
+import { BsArrowBarUp } from 'react-icons/bs';
+import { animateScroll as scroll } from 'react-scroll';
 
 export default function ContactPage() {
+	function scrollToTop() {
+		scroll.scrollToTop();
+	}
 	return (
 		<div className={styles.ContactPage} id='contact'>
 			<div className={styles.ContactContent}>
@@ -36,6 +41,7 @@ export default function ContactPage() {
 						</Form>
 					)}
 				</Formik>
+				<BsArrowBarUp className={styles.BackToTopBtn} onClick={scrollToTop} />
 			</div>
 		</div>
 	);

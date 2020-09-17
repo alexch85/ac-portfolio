@@ -1,13 +1,15 @@
 .ContactPage {
 	height: auto;
 	background: rgba(255, 255, 255, 0.9);
-	padding: 20px 0 90px;
+	padding: 20px 0 10px;
 	width: 100%;
 }
 
 .ContactContent {
 	max-width: 90%;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
 }
 
 .ContactContent h1 {
@@ -91,9 +93,17 @@ form {
 	align-self: center;
 }
 
+.BackToTopBtn {
+	color: #29abe2;
+	align-self: flex-end;
+	font-size: 4em;
+	margin-top: 50px;
+	cursor: pointer;
+}
+
 @media (min-width: 768px) {
 	.ContactPage {
-		height: 400px;
+		height: auto;
 		width: 100%;
 	}
 
@@ -103,7 +113,7 @@ form {
 
 	.ContactContent h1 {
 		width: auto;
-		text-align: start;
+		align-self: start;
 	}
 
 	.FormContent {
