@@ -23,7 +23,12 @@ function App() {
 	}
 	return (
 		<>
-			<NavBar screenWidth={screenWidth} breakpoint={breakpoint} sideDrawerHandler={sideDrawerHandler} />
+			<NavBar
+				screenWidth={screenWidth}
+				breakpoint={breakpoint}
+				drawer={drawer}
+				sideDrawerHandler={sideDrawerHandler}
+			/>
 			{drawer && (
 				<>
 					{' '}
@@ -32,7 +37,7 @@ function App() {
 					</Backdrop>{' '}
 				</>
 			)}
-			<Homepage />
+			<Homepage screenWidth={screenWidth} breakpoint={breakpoint} />
 			<Projects />
 			<AboutPage />
 			<ContactPage />

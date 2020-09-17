@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import SocialMediaIcons from '../UI/socialMediaIcons/SocialMediaIcons';
 import styles from './SideDrawer.module.css';
 
 export default function Drawer({ sideDrawerHandler }) {
@@ -43,6 +44,9 @@ export default function Drawer({ sideDrawerHandler }) {
 				>
 					CONTACT
 				</Link>
+			</div>
+			<div className={styles.LinkContainer}>
+				<SocialMediaIcons />
 			</div>
 		</div>
 	);

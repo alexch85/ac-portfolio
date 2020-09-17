@@ -3,7 +3,7 @@ import styles from './Homepage.module.css';
 import { IoMdArrowRoundDown } from 'react-icons/io';
 import { Link } from 'react-scroll';
 
-export default function Homepage() {
+export default function Homepage({ screenWidth, breakpoint }) {
 	return (
 		<div className={styles.Homepage}>
 			<div className={styles.HomepageWelcome}>
@@ -15,7 +15,11 @@ export default function Homepage() {
 				</h1>
 				<p>Front End Developer / Web Designer</p>
 			</div>
-			<img alt='Hero' src='/svg-files/ac-hero.svg' />
+			{screenWidth > breakpoint ? (
+				<img alt='Hero' src='/svg-files/ac-hero.svg' />
+			) : (
+				<img alt='Hero' src='/svg-files/mobile-ac-hero.svg' />
+			)}
 
 			<Link activeClass={styles.Active} to='projects' spy={true} smooth={true} offset={-70} duration={500}>
 				<div className={styles.ViewProjects}>
