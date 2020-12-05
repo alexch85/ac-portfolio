@@ -27,6 +27,13 @@
 	margin-bottom: 1em;
 }
 
+.WelcomeContent img:hover {
+	animation-name: floating;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
 .WelcomeContent h1 {
 	margin: 0;
 	font-size: 2.5em;
@@ -65,4 +72,19 @@
 }
 
 @media (max-width: 1280px) and (min-width: 768px) {
+}
+
+.floating {
+}
+
+@keyframes floating {
+	from {
+		transform: translate(0, 0px);
+	}
+	65% {
+		transform: translate(0, 10px);
+	}
+	to {
+		transform: translate(0, -0px);
+	}
 }

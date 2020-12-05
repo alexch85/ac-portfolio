@@ -1,7 +1,5 @@
 import React from 'react';
 import styles from './Homepage.module.css';
-import { IoMdArrowRoundDown } from 'react-icons/io';
-import { Link } from 'react-scroll';
 import Button from '../../UI/buttons/Button';
 
 export default function Homepage({ screenWidth, breakpoint }) {
@@ -9,7 +7,7 @@ export default function Homepage({ screenWidth, breakpoint }) {
 		<div className={styles.Homepage}>
 			<div className={styles.HomepageWelcome}>
 				<div className={styles.WelcomeContent}>
-					<img alt='logo' src='/logo-big.png' />
+					<img alt='logo' src='/logo-big@2x.png' />
 					<h1>Alexander Chechik</h1>
 					<p>Front End Developer / Web Designer</p>
 					<div className={styles.btnContainer}>
