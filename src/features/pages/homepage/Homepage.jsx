@@ -2,31 +2,28 @@ import React from 'react';
 import styles from './Homepage.module.css';
 import { IoMdArrowRoundDown } from 'react-icons/io';
 import { Link } from 'react-scroll';
+import Button from '../../UI/buttons/Button';
 
 export default function Homepage({ screenWidth, breakpoint }) {
 	return (
 		<div className={styles.Homepage}>
 			<div className={styles.HomepageWelcome}>
-				<h1>
-					Hi,
-					<br />I am Alex,
-					<br />
-					React developer
-				</h1>
-				<p>Front End Developer / Web Designer</p>
+				<div className={styles.WelcomeContent}>
+					<img alt='logo' src='/logo-big.png' />
+					<h1>Alexander Chechik</h1>
+					<p>Front End Developer / Web Designer</p>
+					<div className={styles.btnContainer}>
+						<Button>View Cv</Button>
+					</div>
+				</div>
 			</div>
-			{screenWidth > breakpoint ? (
-				<img alt='Hero' src='/svg-files/ac-hero.svg' />
-			) : (
-				<img alt='Hero' src='/svg-files/mobile-ac-hero.svg' />
-			)}
 
-			<Link activeClass={styles.Active} to='projects' spy={true} smooth={true} offset={-70} duration={500}>
+			{/* <Link activeClass={styles.Active} to='projects' spy={true} smooth={true} offset={-70} duration={500}>
 				<div className={styles.ViewProjects}>
 					<p>View recent projects</p>
 					<IoMdArrowRoundDown className={styles.ArrowDown} />{' '}
 				</div>
-			</Link>
+			</Link> */}
 		</div>
 	);
 }

@@ -7,7 +7,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background: rgba(255, 255, 255);
-	background-image: url('/pictures/background.jpg');
+	background-image: url('/background.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -29,7 +29,7 @@ code {
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 		background: rgba(255, 255, 255);
-		background-image: url('/pictures/background.jpg');
+		background-image: url('/background-v-16.jpg');
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;

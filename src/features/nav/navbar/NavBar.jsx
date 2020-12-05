@@ -9,7 +9,7 @@ export default function NavBar({ screenWidth, breakpoint, sideDrawerHandler, dra
 	return (
 		<div className={styles.NavBarContainer}>
 			<div className={styles.NavBar}>
-				<Logo />
+				{/* <Logo /> */}
 				{screenWidth < breakpoint ? (
 					<HamburgerMenu
 						className={styles.HamburgerMenu}

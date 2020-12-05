@@ -1,58 +1,60 @@
 .Homepage {
 	width: 100%;
 	height: auto;
-	background: rgba(255, 255, 255, 0.9);
+	min-height: 800px;
 	margin: 0;
 	padding-top: 8em;
 }
 
 .HomepageWelcome {
-	margin: 0 20px 40px;
-	max-width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 40px;
 	overflow: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.HomepageWelcome h1 {
+.WelcomeContent {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.WelcomeContent img {
+	height: 280px;
+	margin-bottom: 1em;
+}
+
+.WelcomeContent h1 {
 	margin: 0;
 	font-size: 2.5em;
 	line-height: 1em;
-	color: #333333;
-	width: 100%;
+	color: #fff;
 	box-sizing: border-box;
 }
 
-.HomepageWelcome P {
+.WelcomeContent p {
 	font-size: 1.15em;
-	margin: 0.5em 0;
-	width: 100%;
+	margin: 0;
 	box-sizing: border-box;
-}
-
-.ViewProjects {
-	margin: 80px 20px 0;
-	max-width: 300px;
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
-	cursor: pointer;
-	box-sizing: border-box;
-}
-
-.ViewProjects p {
-	font-size: 1.2em;
-}
-
-.ArrowDown {
 	color: #29abe2;
-	font-size: 1.4em;
+	align-self: flex-end;
+}
+
+.btnContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.btnContainer button {
+	width: 200px;
 }
 
 @media (min-width: 768px) {
-	.HomepageWelcome {
-		margin: 0 auto;
-		width: 1200px;
-	}
-
 	.HomepageWelcome h1 {
 		font-size: 4em;
 	}
@@ -60,27 +62,7 @@
 	.HomepageWelcome P {
 		font-size: 1.85em;
 	}
-
-	.ViewProjects {
-		margin: 0 auto;
-		max-width: 1200px;
-	}
-
-	.ViewProjects p {
-		font-size: 1.5em;
-	}
-
-	.ArrowDown {
-		font-size: 2em;
-	}
 }
 
 @media (max-width: 1280px) and (min-width: 768px) {
-	.HomepageWelcome {
-		padding-left: 20px;
-		width: auto;
-	}
-	.ViewProjects {
-		padding-left: 20px;
-	}
 }
