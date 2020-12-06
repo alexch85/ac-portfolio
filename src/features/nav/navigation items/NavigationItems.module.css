@@ -1,7 +1,7 @@
 .NavigationItems {
 	display: flex;
 	justify-content: space-between;
-	width: 250px;
+	width: 300px;
 	margin-left: auto;
 	color: white;
 	padding: 10px;
@@ -11,6 +11,7 @@
 .NavigationItems a {
 	letter-spacing: 0.05em;
 	padding: 5px 0;
+	font-size: 1.2rem;
 }
 
 .NavigationItems a:hover,
